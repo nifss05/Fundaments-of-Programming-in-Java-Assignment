@@ -1,0 +1,14 @@
+1)A programming language is a language that programmers use to write instructions for computers to perform specific tasks. A programming language has a set of rules (syntax) and words (keywords) that can be used to create programs
+
+2)We need a programming language because it is easier and more efficient to communicate with computers using a programming language than using binary codes (0s and 1s). A programming language also allows us to create software applications that can solve real-world problems
+
+3)Simple: Java is easy to learn and its syntax is clear and concise5
+Object-oriented: Java is based on the concept of objects, which have data and behavior. Java supports inheritance, polymorphism, abstraction, and encapsulation
+
+4)An object is an instance of a class, which is a blueprint that defines the properties and methods of a certain type of entity. An object has state (data) and behavior (functions) that are specific to that object. For example, a dog is an object that has state (name, color, breed, hungry) and behavior (barking, fetching, wagging tail)
+
+5)A class is a template or a blueprint that describes what a specific kind of object will look like. A class contains fields (variables) and methods (functions) that are common to all objects of that class. A class can also have constructors, blocks, nested classes, and interfaces. For example, a mobile phone is a class that has fields (brand name, RAM) and methods (texting, calling)
+
+6)The main() method in Java is the entry point of any Java program. It is the method that is executed first when the Java interpreter starts running the program. The main() method must have a specific signature, which is:
+
+public static void main(String[] args)

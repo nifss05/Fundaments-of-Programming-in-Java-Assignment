@@ -1,0 +1,15 @@
+1)A computer is a device that can do math and follow instructions with data. It has a brain, memory, storage, and devices to talk to it and see what it does.
+
+2)RAM is a type of memory that stores data for a short time while the brain is working on it. It is fast but forgets when the power is off.
+
+3)Data can be stored in different devices in a computer, like hard disks, CDs, USB drives, or RAM. They use different ways to keep data, like magnets, lasers, or electricity.
+
+4)A keyboard is a device that has keys to type text and numbers on a document in the computer.
+
+5)Output devices are devices that show or make data from the computer, like monitors, printers, or speakers.
+
+6)A mouse, a touchpad, or a touchscreen is a device that can move the cursor or pointer on the screen.
+
+7)Machine language is the language that the computer can understand without a translation program. It uses 0s and 1s to tell the brain what to do.
+
+8)Input devices are devices that send data or signals to the computer, like keyboard, scanner, or microphone.
