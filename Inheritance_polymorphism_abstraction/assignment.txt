@@ -1,0 +1,28 @@
+1. Inheritance in Java
+   - It allows one class to inherit features (fields and methods) from another class.
+   - Achieved using the extends keyword.
+   - Example: MountainBike inherits from Bicycle.
+
+2. Polymorphism
+   - Having many forms.
+   - Two types: compile-time (method overloading) and runtime (method overriding).
+
+3. Abstraction
+   - Hides complex implementation details.
+   - Example: Shape class with an abstract draw() method.
+
+4. Abstract vs. Final Method
+   - Abstract: No implementation, must be overridden.
+   - Final: Cannot be overridden.
+
+5. Final Class in Java
+   - Cannot be subclassed.
+   - Prevents further extension.
+
+6. Abstraction vs. Encapsulation
+   - Abstraction: Hides details, shows necessary functionality.
+   - Encapsulation: Bundles data and methods into a single unit (class).
+
+7. Runtime vs. Compile-time Polymorphism
+   - Runtime: Achieved through method overriding.
+   - Compile-time: Achieved through method overloading.
