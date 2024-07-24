@@ -1,0 +1,17 @@
+1. A lambda expression in Java 8 is a concise way to represent an anonymous function — a method without a name, which can be passed around as a parameter to other methods or stored in variables.
+
+2. Yes, lambda expressions can be passed to a method as arguments. This is typically done when the method accepts a functional interface as a parameter. Lambda expressions provide a convenient way to pass behavior (code) to methods.
+
+3. A functional interface in Java 8 is an interface that contains exactly one abstract method (SAM - Single Abstract Method). Functional interfaces are used to enable lambda expressions and method references, as lambda expressions can only be used with them.
+
+4. Lambda expressions in Java are used to simplify the syntax of writing anonymous classes (especially for functional interfaces). They make the code more readable, concise, and maintainable by reducing boilerplate code.
+
+5. No, it is not mandatory for a lambda expression to have parameters. Lambda expressions can be parameterless if the functional interface they implement has a method with no parameters. 
+
+For example:
+
+   Runnable runnable = () -> System.out.println("Hello Lambda!");
+
+     () -> System.out.println("Hello Lambda!")
+
+ is a lambda expression without any parameters, implementing the `run()` method of the `Runnable` functional interface.

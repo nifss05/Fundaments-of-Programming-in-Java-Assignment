@@ -1,0 +1,24 @@
+1. An interface in Java defines a contract or a blueprint for a class. It specifies a set of methods (without implementation) that a class implementing the interface must provide.
+
+2. Methods in an interface are by default public and abstract. Starting from Java 8, you can also have default and static methods in an interface. Here's an example:
+
+public interface Animal {
+  
+    void makeSound();
+
+   
+    default void sleep() {
+        System.out.println("Animal is sleeping");
+    }
+
+    static void eat() {
+        System.out.println("Animal is eating");
+    }
+}
+
+3. Interfaces in Java are used to achieve abstraction and multiple inheritance of types. They allow for a flexible and loosely coupled design by separating the definition of methods from their implementation. Interfaces are also used to establish a contract between unrelated classes to ensure consistency in behavior.
+
+4. Abstract class vs Interface in Java
+   - Abstract class: Can have abstract and non-abstract methods, can have instance variables, and may provide some method implementations. It allows single inheritance.
+   - Interface: Contains only method declarations (abstract methods by default, but can also have default and static methods from Java 8 onwards), constants (public static final variables), and cannot have instance variables. It supports multiple inheritance of types.
+
