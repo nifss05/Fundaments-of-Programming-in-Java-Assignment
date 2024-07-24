@@ -1,0 +1,49 @@
+1. Collection Framework in Java:
+   It's a unified architecture that provides interfaces (like List, Set, Queue) and classes (like ArrayList, LinkedList, HashSet) to manipulate and store groups of objects.
+
+2. ArrayList vs LinkedList:
+   - ArrayList:Uses dynamic array to store elements, good for random access and iterating.
+   - LinkedList: Uses doubly linked list, good for frequent insertions and deletions, but slower for random access.
+
+3. **Iterator vs ListIterator:
+   - Iterator:Basic interface for iterating over a collection, supports only forward traversal.
+   - ListIterator:Subinterface of Iterator, supports bidirectional traversal (forward and backward).
+
+4. Iterator vs Enumeration:
+   - Iterator: Introduced in Java 2, supports both read and remove operations.
+   - Enumeration:Legacy interface, supports only read operations and is thread-safe.
+
+5. List vs Set:
+   - List: Ordered collection allowing duplicate elements (e.g., ArrayList, LinkedList).
+   - Set:Unordered collection that does not allow duplicate elements (e.g., HashSet, TreeSet).
+
+6. HashSet vs TreeSet:
+   - HashSet: Unordered collection, uses hashing for storing elements, allows null values.
+   - TreeSet: Ordered collection (sorted), uses a red-black tree, does not allow null values.
+
+7. Array vs ArrayList:
+   - Array:Fixed-size data structure, stores elements of the same data type.
+   - ArrayList:Dynamic array, resizable, stores objects, provides more flexibility.
+
+8. Map in Java:
+   It's an interface that maps keys to values, each key is unique and used to retrieve the corresponding value.
+
+9. Commonly used implementations of Map in Java:
+   - HashMap:Stores key-value pairs in a hash table, unordered.
+   - TreeMap: Stores key-value pairs in a red-black tree, ordered by keys.
+
+10. HashMap vs TreeMap:
+    - HashMap:Unordered, uses hashing for storage and retrieval, faster for most operations.
+    - TreeMap: Ordered by keys, slower insertion and removal compared to HashMap.
+
+11. Check if a key exists in a Map in Java:
+    Use the containsKey() method:
+   
+    Map map = new HashMap();
+   
+    if (map.containsKey("keyName")) {
+       
+    } else {
+
+    }
+   
